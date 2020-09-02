@@ -25,3 +25,11 @@ most duplicates to bubble up to the top
 8. -r means reverse (it reverse the result of comparisons sort according to WORD:)
 9. Only one dash used for single letter flag 
 10. Two dashes are used for long flags which are used for descriptive options. -->
+
+
+## Understand Important Bash commands (>, >>, |, cat)
+1. ```ls > filelist.txt``` to redirect the contents of your directory into a file. list of contents in the directory is saved to the filelist.txt
+2. ```ls >> filelist.txt``` it appends lists of contents to the file rather than overwriting the data.
+3. ```ls > temp.txt``` it sends the results to a new file temp.txt.
+4. cat temp.txt it displays the content of the temp.txt.
+
